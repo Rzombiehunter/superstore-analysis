@@ -1,42 +1,51 @@
-# 📊 Superstore Sales Analysis
+ Superstore Sales Analysis
+Author: Ryan Harrison
+Course: IS 2053
+Date: May 7, 2025
 
-**Course:** IS 2053  
-**Date:** 05/07/2025  
-**Author:** Ryan Harrison  
+ Business Questions
+Which products have the highest sales and profit?
 
----
+Which regions generate the most sales and profit?
 
-##  Objective
+How do sales trends vary over time?
 
-This project analyzes a dataset from a fictional superstore to uncover key insights into sales performance, profitability, and regional trends. The goal is to identify actionable insights that can support better business decisions.
+ Key Findings
+1.  Top Products by Sales and Profit
+Best-Selling Products: Tables, Phones, and Chairs led in total sales.
 
----
+Most Profitable Products: Copiers generated the highest profit by far, despite lower sales volume.
 
-##  Business Questions Explored
+Insight: High sales volume does not always equal high profit. Some best-sellers have low margins, while high-margin items like copiers are sold less frequently but drive strong profits.
 
-1. **Which products generate the most sales and profit?**
-2. **Which regions are the most and least profitable?**
-3. **How have monthly sales changed over time?**
+2.  Regional Performance
+West was the top-performing region in both sales and profit, making it the company’s strongest market.
 
----
+East followed closely behind, showing consistent performance.
 
-## Tools & Technologies
+South had moderate sales but significantly lower profit.
 
-- Python (Pandas, NumPy)
-- Data Visualization: Seaborn, Matplotlib
-- Jupyter Notebook
-- Git & GitHub for version control
+Central region underperformed in both metrics, with signs of negative profit.
 
----
+Insight: The West and East regions are profitable growth markets, while Central may require operational review or strategic rethinking.
 
-##  Key Insights
+3.  Sales Trends Over Time
+Monthly sales data shows seasonal peaks and a general upward trend in revenue.
 
-- **High Sales ≠ High Profit**: Some products (like Chairs) drive revenue but not profit. Others (like Phones) have smaller sales but bigger profit margins.
-- **Regional Variation**: The West region performs well in both sales and profit, while the South lags behind.
-- **Seasonal Trends**: Sales generally increase during Q4, suggesting opportunities for targeted promotions.
+Certain months (like November and December) display sharp increases in sales, likely due to holiday shopping periods.
 
----
+Insight: Recognizing peak seasons can help with inventory planning, marketing, and staffing.
 
-## 📊 Sample Visuals
+ Business Implications
+Prioritize investment in high-profit products and regions (e.g., copiers in the West).
 
-*(Include screenshots of your top 1–2 plots here if possible)*
+Audit underperforming regions (especially Central) to identify logistical, marketing, or customer experience issues.
+
+Use seasonality to optimize campaigns and inventory for high-sales periods.
+
+Tools Used
+Python (Pandas, Matplotlib, Seaborn)
+
+Jupyter Notebook
+
+Git & GitHub
